@@ -74,17 +74,17 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=f"""👋 Hello Developer {query.from_user.mention} \n\nI am an Advance file Renamer and file Converter BOT with permanent and custom thumbnail support.\n\nSend me any video or document !""",
             reply_markup=InlineKeyboardMarkup( [[
-        InlineKeyboardButton(" Developer ", url='https://t.me/anjel_neha')
+        InlineKeyboardButton(" Developer ", url='https://t.me/ExE_AQUIB')
         ],[
-        InlineKeyboardButton(' Updates', url='https://t.me/VJ_Bots'),
-        InlineKeyboardButton(' Support', url='https://t.me/vj_bot_disscussion')
+        InlineKeyboardButton(' Updates', url='https://t.me/KGN_BOT_Z'),
+        InlineKeyboardButton(' Support', url='https://t.me/+zlb3ReuJ40tjMDA1')
         ],[
         InlineKeyboardButton(' About', callback_data='about'),
         InlineKeyboardButton(' Help', callback_data='help')
         ],[
-        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/vj_bots')
+        InlineKeyboardButton(" Join Our Movie Channel !", url='https://t.me/Ongoingmoviehub')
         ],[
-        InlineKeyboardButton("❤️ Subscribe YT ❤️", url='https://www.youtube.com/@Tech_VJ')
+        InlineKeyboardButton("❤️ Join Our Anime Channel ❤️", url='https://t.me/+g3JA0lcAy0JmMmRl')
         ]
         ]
                 )
@@ -93,7 +93,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.HELP_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+               InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/Ongoingmoviehub")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -105,7 +105,7 @@ async def cb_handler(client, query: CallbackQuery):
             text=mr.ABOUT_TXT.format(client.mention),
             disable_web_page_preview = True,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/Ongoingmoviehub")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
@@ -116,7 +116,7 @@ async def cb_handler(client, query: CallbackQuery):
         await query.message.edit_text(
             text=mr.DEV_TXT,
             reply_markup=InlineKeyboardMarkup( [[
-                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/vj_bots")
+                InlineKeyboardButton(" Join our Movie Channel ", url="https://t.me/Ongoingmoviehub")
                ],[
                InlineKeyboardButton(" 𝙲𝙻𝙾𝚂𝙴", callback_data = "close"),
                InlineKeyboardButton(" 𝙱𝙰𝙲𝙺", callback_data = "start")
