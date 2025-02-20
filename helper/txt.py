@@ -14,7 +14,7 @@ class mr(object):
     ABOUT_TXT = """
 ╭───────────⍟
 ├🤖 My Name is : {}
-├👑 CHANNEL : <a href=https://t.me/VJ_Bots>VJ Bots</a> 
+├👑 CHANNEL : <a href=https://t.me/KGN_BOT_Z>KGN BOTZ</a> 
 ├📕 LIBRARY : <a href=https://github.com/pyrogram>Pyrogram</a>
 ├✏️ LANGUAGE : <a href=https://www.python.org>Python 3</a>
 ├💾 DATABASE : <a href=https://cloud.mongodb.com>MongoDB</a>
@@ -39,5 +39,5 @@ Example:- /set_caption 📕 File Name: {filename}
 ⏰ Duration: {duration}
 
 ✏️ <b><u>HOW TO RENAME A FILE</u></b>
-•> send any file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
+•> send any >2GB file and click rename option and type new file name and \n send select [ document, video, audio ]👈 choice this.
 """
